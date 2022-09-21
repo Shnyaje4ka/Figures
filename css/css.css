@@ -1,0 +1,308 @@
+@import url(reset.css);
+
+.main{          width: 1200px;
+                height: 1800px;
+                background: lightcyan;
+                margin: 0 auto;
+                display: block;
+                padding-top: 30px;
+}
+.bolt,.gaika{   margin-top: 150px;}
+
+.pic01{         width: 100px;
+                height: 100px;
+                background: lightgoldenrodyellow;
+                border-top-left-radius: 100px;
+}
+.pic02{         width: 100px;
+                height: 60px;
+                background: linear-gradient(to right, transparent 35%, lightgoldenrodyellow 35%);
+}
+.pic03{         width: 100px;
+                height: 100px;
+                background: lightgoldenrodyellow;
+                border-bottom-left-radius: 100px;
+}
+.pic04{         height: 90px;
+                width: 250px;
+                background: repeating-linear-gradient(130deg, lightgoldenrodyellow, lightgoldenrodyellow 35px, black 35px, black 16%);
+                margin: -175px 0 0 150px;
+     
+      
+
+}
+.pic05{         height: 90px;
+                width: 50px;
+                background: lightgoldenrodyellow;
+                margin: -90px 0 0 100px;
+}
+
+
+
+.pic06{          width: 302px;
+                 height: 162px;
+                 background: radial-gradient(circle, transparent 30%, green 30%);
+                 bottom: 255px;
+                 left: 498px;
+                 position: relative;
+                 margin-left: 200px;
+
+}
+.pic06:before{   content: "";
+                 width: 170px;
+                 height: 298px;
+                 position: absolute;
+                 background: radial-gradient(circle, transparent 30%, green 30%);
+                 bottom: -69px;
+                 left: -134px;
+                 margin-left: 200px;
+                 transform: rotate(32deg);
+        
+}
+.pic06:after{   content: "";
+                width: 181px;
+                height: 291px;
+                position: absolute;
+                background: radial-gradient(circle, transparent 30%, green 30%);
+                bottom: -65px;
+                left: -140px;
+                margin-left: 200px;
+                transform: rotate(-210deg);
+}
+
+.pic07{width: 100px;
+       height: 100px;
+       background: transparent;
+       border-bottom: 100px solid blue;
+       border-left: 100px solid blue;
+       border-right: 100px solid blue;
+       border-top: 0 solid pink;
+       border-radius: 34%;
+       transform: rotate(-35deg);
+       position: relative;
+}
+.pic07:before{content: "";
+              width: 100px;
+              height: 300px;
+              background: radial-gradient(circle at 50% 80%, transparent 10%, blue 10%);
+              position: absolute;
+              top: 196px;
+              left: 0;
+              border-bottom-left-radius: 30%;
+              border-bottom-right-radius: 30%;
+
+}
+.pic08{width: 250px;
+    height: 250px;
+    background: radial-gradient(circle at 50% 31%, transparent 43%, blue 43%);
+    border-radius: 50%;
+    transform: rotate(-35deg);
+    position: relative;
+    bottom: 255px;
+    left: 498px;
+}
+.pic08:before{content: "";
+    width: 80px;
+    height: 300px;
+    background: radial-gradient(circle at 50% 80%, transparent 5%, blue 5%);
+    position: absolute;
+    top: 235px;
+    left: 94px;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+
+}
+.ship{transform: translate(100px, 600px);}
+.pic10{width: 100px;
+       height: 100px;
+       background: radial-gradient(circle at 50% 50%, transparent 40%, lightskyblue 40%);
+       position: relative;
+}
+.pic10:before{content: "";
+              width: 0;
+              height: 0;
+              position: absolute;
+              border-right: 80px solid lightskyblue;
+              border-left: 80px solid transparent;
+              border-top: 80px solid transparent;
+              border-bottom: 80px solid transparent;
+              top: -60px;
+              right: 100px;
+}
+.pic11{width: 100px;
+    height: 100px;
+    background: radial-gradient(circle at 50% 50%, transparent 40%, lightskyblue 40%);
+    transform: translate(100px, -100px);
+    position: relative;
+}
+.pic11:before{content: "";
+             position: absolute;
+             background: lightskyblue;
+             width: 5px;
+             height: 300px;
+             bottom: 100px;
+             left: 50px;
+}
+.pic11:after{content: "";
+    position: absolute;
+    width: 0;
+       height: 0;
+       border-right: 40px solid transparent;
+              border-left: 60px solid lightskyblue;
+              border-top: 20px solid lightskyblue;
+              border-bottom: 20px solid lightskyblue;
+              bottom: 360px;
+              left: 50px;
+}
+.pic12{width: 100px;
+    height: 100px;
+    background: radial-gradient(circle at 50% 50%, transparent 40%, lightskyblue 40%);
+    transform: translate(200px, -200px);
+    position: relative;
+
+}
+.pic12:before{content: "";
+              position: absolute;
+              width: 0;
+              height: 0;
+              border-right: 50px solid lightskyblue;
+              border-left: 50px solid transparent;
+              border-top: 50px solid transparent;
+              border-bottom: 50px solid transparent;
+              top: 0px;
+              right: -100px;
+              transform: rotate(180deg);
+}
+.pic12:after{content: "";
+    position: absolute;
+    width: 70.7px;
+    height: 71px;
+    background: lightskyblue;
+    
+    top: -35px;
+    right: -85px;
+    transform: rotate(45deg);
+}
+.pic13{width: 150px;
+       height: 300px;
+       position: relative;
+       border-radius: 50%;
+       border-right: 60px solid transparent;
+       border-left: 100px solid lightskyblue;
+       transform: translateY(-600px);
+
+}
+.pic13:before{content: "";
+              position: absolute;
+              height: 185px;
+              width: 188px;
+              background: radial-gradient(circle at -71% 175%, transparent 77%, lightskyblue 77%);
+              transform: rotate(46deg);
+
+              bottom: 12%;
+              left: -28%;
+
+}
+
+
+
+
+
+.ship2{transform: translate(800px, 0);}
+.pic14{width: 100px;
+       height: 100px;
+       background: radial-gradient(circle at 50% 50%, transparent 40%, lightskyblue 40%);
+       position: relative;
+}
+.pic14:before{content: "";
+              width: 0;
+              height: 0;
+              position: absolute;
+              border-right: 80px solid lightskyblue;
+              border-left: 80px solid transparent;
+              border-top: 80px solid transparent;
+              border-bottom: 80px solid transparent;
+              top: -60px;
+              right: 100px;
+}
+.pic15{width: 100px;
+    height: 100px;
+    background: radial-gradient(circle at 50% 50%, transparent 40%, lightskyblue 40%);
+    transform: translate(100px, -100px);
+    position: relative;
+}
+.pic15:before{content: "";
+             position: absolute;
+             background: lightskyblue;
+             width: 5px;
+             height: 300px;
+             bottom: 100px;
+             left: 50px;
+}
+.pic15:after{content: "";
+    position: absolute;
+    width: 0;
+       height: 0;
+       border-right: 40px solid transparent;
+              border-left: 60px solid lightskyblue;
+              border-top: 20px solid lightskyblue;
+              border-bottom: 20px solid lightskyblue;
+              bottom: 360px;
+              left: 50px;
+}
+.pic16{width: 100px;
+    height: 100px;
+    background: radial-gradient(circle at 50% 50%, transparent 40%, lightskyblue 40%);
+    transform: translate(200px, -200px);
+    position: relative;
+
+}
+.pic16:before{content: "";
+              position: absolute;
+              width: 0;
+              height: 0;
+              border-right: 50px solid lightskyblue;
+              border-left: 50px solid transparent;
+              border-top: 50px solid transparent;
+              border-bottom: 50px solid transparent;
+              top: 0px;
+              right: -100px;
+              transform: rotate(180deg);
+}
+.pic16:after{content: "";
+    position: absolute;
+    width: 70.7px;
+    height: 71px;
+    background: lightskyblue;
+    
+    top: -35px;
+    right: -85px;
+    transform: rotate(45deg);
+}
+.pic17{width: 180px;
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+    transform: rotate(45deg) translate(-320px, -412px);
+}
+.pic17:before{content: "";
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 200%;
+          height: 200%;
+          border-radius: 50%;
+          box-shadow: 50px -70px 0 0 lightskyblue;
+
+}
+.pic18{
+    width: 150px;
+    height: 300px;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    border-right: 60px solid transparent;
+    border-left: 100px solid lightskyblue;
+    transform: translate(1%, -260%);}
+
+
